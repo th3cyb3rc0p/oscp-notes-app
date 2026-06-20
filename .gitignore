@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+htmlcov/
+
+# Virtualenv
+venv/
+.venv/
+env/
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec.bak
+
+# Local app data — your notes, payloads, vault, tracker progress
+# (the app stores these under ~/OSCP-Notes/data/ on macOS,
+# ~/.local/share/OSCP-Notes/data/ on Linux, %APPDATA%\OSCP-Notes\data\ on Windows)
+data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Secrets / credentials
+.env
+.env.local
+*.pem
+*.key
+
+# OS junk
+Thumbs.db
+desktop.ini
