@@ -5,6 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
 [![Platforms: macOS · Linux · Windows](https://img.shields.io/badge/platforms-macOS%20·%20Linux%20·%20Windows-lightgrey.svg)](#cross-platform-builds)
+[![Install: brew install --cask oscp-notes](https://img.shields.io/badge/brew-install--cask-oscp--notes-FBB040?logo=homebrew)](#install)
 
 **v1.1** by **Mayur Parmar** ([th3cyb3rc0p](https://www.linkedin.com/in/th3cyb3rc0p/))
 
@@ -42,6 +43,16 @@ Built on Python + Tkinter so there's no Electron runtime, no auto-update channel
 ## Install
 
 Pick your OS:
+
+### macOS (Homebrew — recommended)
+
+```bash
+brew tap th3cyb3rc0p/tap
+brew install --cask oscp-notes
+open /Applications/OSCP-Notes.app
+```
+
+To update later: `brew upgrade --cask oscp-notes`. To uninstall: `brew uninstall --zap oscp-notes` (the `--zap` also removes the macOS Library prefs).
 
 ### macOS (source)
 
